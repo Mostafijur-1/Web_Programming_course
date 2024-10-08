@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  background-color: rgb(110, 104, 221);
+  height: 45px;
+  display: flex;
+  position: relative;
+}
+.linkedin img {
+  padding: 10px;
+  margin-left: 40px;
+  width: 100px;
+  margin-right: 120px;
+}
+.formnav {
+  position: absolute;
+  right: 45px;
+  top: 10px;
+}
+.formnav button {
+  padding: 2px 3px;
+  background-color: transparent;
+  color: white;
+  border: 1px solid #fff;
+}
+.formnav input {
+  padding: 2px 3px;
+}
+
+.hero {
+  background-image: url(images/img.jpg);
+  height: 100vh;
+  background-size: cover;
+  position: relative;
+}
+
+.heroForm {
+  background-color: whitesmoke;
+  width: 300px;
+  padding: 25px;
+  position: absolute;
+  left: 40%;
+  top: 20%;
+}
+.heroForm p {
+  margin-bottom: 15px;
+}
+.heroForm h2 {
+  margin-bottom: 15px;
+}
+.heroForm input {
+  padding: 5px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+.heroForm button {
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  background-color: blue;
+  color: white;
+  border-radius: 5px;
+  border: none;
+}
