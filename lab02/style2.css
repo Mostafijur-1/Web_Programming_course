@@ -12,11 +12,12 @@
   background-color: blue;
   width: 50%;
   height: 100vh;
-  padding: 150px;
+
   justify-content: center;
   align-items: center;
   color: white;
 }
+
 .left h2 {
   margin-bottom: 20px;
 }
